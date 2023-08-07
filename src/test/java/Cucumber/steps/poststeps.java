@@ -8,7 +8,7 @@ import io.cucumber.java.en.When;
 public class poststeps {
             @Given("User should be logged in and  should be present at  its own wall")
         public void userShouldBeLoggedInAndShouldBePresentAtItsOwnWall() {
-            System.out.println("userShouldBeLoggedInAndShouldBePresentAtItsOwnWall");
+            System.out.println("userShouldBeLoggedInAndShouldBePresentAtItsOwnWall2");
         }
         @When("I type the message as {string}in the textbox")
         public void iTypeTheMessageAsInTheTextbox(String arg0) {
